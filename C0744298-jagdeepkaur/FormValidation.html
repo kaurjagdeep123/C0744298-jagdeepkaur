@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Validatio</title>
+    <script type="text/javascript">;
+        var divs = new Array();
+        divs[0] = "errFirst";
+        divs[1] = "errLast";
+        divs[2] = "errEmail";
+        divs[3] = "errUid";
+        divs[4] = "errPassword";
+        divs[5] = "errConfirm";
+        function validate() {
+            var inputs = new Array();
+            inputs[0] = document.getElementsById('first').value;
+            inputs[1] = document.getElementsById('last').value;
+            inputs[2] = document.getElementsById('email').value;
+            inputs[3] = document.getElementsById('uid').value;
+            inputs[4] = document.getElementsById('password').value;
+            inputs[5] = document.getElementsById('confirm').value;
+            var errors = new Array();
+            errors[0] = "<span style='color:red'>please enter your first name!</span>";
+            errors[1] = "<span style='color:red'>please enter your last name!</span>";
+            errors[2] = "<span style='color:red'>please enter your email!</span>";
+            errors[3] = "<span style='color:red'>please enter your user id!</span>";
+            errors[4] = "<span style='color:red'>please enter your password!</span>";
+            errors[5] = "<span style='color:red'>please confirm your password!</span>";
+        }
+    </script>
+</head>
+<body>
+    <div>Content goes here.</div>
+</body>
+</html>

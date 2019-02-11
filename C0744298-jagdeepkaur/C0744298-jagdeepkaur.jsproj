@@ -68,6 +68,7 @@
     <AppxManifest Include="package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <Content Include="FormValidation.html" />
     <Content Include="handlingEvents.html" />
     <Content Include="images\-l-f91afe70ff8d8092.jpg" />
     <Content Include="images\SalutingEmoji.jpg" />
